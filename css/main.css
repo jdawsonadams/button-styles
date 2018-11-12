@@ -19,7 +19,8 @@ div {
   border-radius: 8px;
   border-width: 3px;
   text-decoration: none;
-  padding: .4em;
+  padding: .5em;
+  display: inline-block;
 }
 
 .btn-small {
@@ -49,17 +50,23 @@ div {
 /* hover */
 
 .btn:hover {
-
+  background-color: #000;
+  color: #fff;
 }
 
-.btn-subtle {
-
+.btn-subtle:hover {
+  background-color: #666;
+  color: #fff;
 }
 
-.btn-ghost {
-
+.btn-ghost:hover {
+  background-color: #666;
+  color: #fff;
+  border-color: #666;
+  border-width: medium;
 }
 
-.btn-warning {
-
+.btn-warning:hover {
+  background-color; #933;
+  color: #fff;
 }
